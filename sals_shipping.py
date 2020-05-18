@@ -30,11 +30,9 @@ def cheapest_shipping(weight):
   else:
     return ("Ground shipping is the cheapest ",ground)
 
-print(cheapest_shipping(4.8))
-
 print(cheapest_shipping(42.5))
-
-
+print(cheapest_shipping(14.8))
+print(cheapest_shipping(4.8))
 
 
 
